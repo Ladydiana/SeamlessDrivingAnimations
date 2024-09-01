@@ -102,7 +102,7 @@ def main():
     blender_executable = "C:/Program Files/Blender Foundation/Blender 4.0/blender.exe"  
 
     # Set the path to the .blend file
-    blend_file = "C:/Users/Jedi Knight/Documents/GitHub/SynthwaveAnimations/Auto_LoopDrivingWireframe_Cactus.blend"  
+    blend_file = "C:/Users/Jedi Knight/Documents/GitHub/SynthwaveAnimations/Auto_LoopDrivingWireframe_City.blend"  
 
     # Set the output directory and base name
     output_directory = "C:/Users/Jedi Knight/Documents/GitHub/SynthwaveAnimations/renders/auto"  
@@ -113,7 +113,7 @@ def main():
     hex_color = sys.argv[-1]
 
     # Set the material name that you want to change the color of
-    material_name = "Cactus"  
+    material_name = "House"  
 
     # Set the output file name
     output_file = os.path.join(output_directory, get_incremented_filename(output_directory, base_name, extension))
